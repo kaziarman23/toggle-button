@@ -33,7 +33,7 @@ body {
 .circle {
     width: 1.6rem;
     height: 1.6rem;
-    background-color: white;
+    background-color: black;
     position: absolute;
     top: 5px;
     left: 4px;
@@ -47,6 +47,7 @@ body {
 
 .input:checked + .label .circle {
     animation: toggleOn 0.4s linear forwards;
+    background-color: white;
 }
 
 
